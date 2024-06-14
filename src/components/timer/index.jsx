@@ -2,9 +2,11 @@ import PropTypes from "prop-types";
 import * as C from "./style";
 
 const Timer = ({ timeLeft }) => {
+  const progress = (timeLeft / 6) * 100;
+
   return (
     <C.Timer>
-      <C.ProgressBar progress={timeLeft}>{timeLeft.toFixed(1)}s</C.ProgressBar>
+      <C.ProgressBar progress={progress}>{timeLeft.toFixed(1)}s</C.ProgressBar>
     </C.Timer>
   );
 };

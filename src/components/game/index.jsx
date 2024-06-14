@@ -2,8 +2,8 @@ import { useState, useEffect, useCallback, useMemo } from "react";
 import * as C from "./style";
 import SequenceDisplay from "../sequenceDisplay";
 import Timer from "../timer";
-import soundKeyPress from "../../assets/sound/sound_key_press_sound.mp3"; 
-import soundError from "../../assets/sound/sound_wrong_sound.mp3"; 
+import soundKeyPress from "../../assets/sound/sound_key_press_sound.mp3";
+import soundError from "../../assets/sound/sound_wrong_sound.mp3";
 
 const generateSequence = (length) => {
   const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -17,7 +17,7 @@ const generateSequence = (length) => {
 const Game = () => {
   const [sequence, setSequence] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(10);
+  const [timeLeft, setTimeLeft] = useState(6);
   const [gameOver, setGameOver] = useState(false);
   const [isWinner, setIsWinner] = useState(false);
   const [started, setStarted] = useState(false);
@@ -70,7 +70,7 @@ const Game = () => {
   const resetGame = () => {
     setSequence(generateSequence(6));
     setCurrentIndex(0);
-    setTimeLeft(10);
+    setTimeLeft(6);
     setGameOver(false);
     setIsWinner(false);
     setStarted(true);

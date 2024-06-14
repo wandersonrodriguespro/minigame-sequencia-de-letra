@@ -12,7 +12,7 @@ export const Timer = styled.div`
 
 export const ProgressBar = styled.div`
   height: 100%;
-  width: ${({ progress }) => (progress > 0 ? progress * 10 : 0)}%;
+  width: ${({ progress }) => (progress > 0 ? progress : 0)}%;
   background: #eb7506;
   transition: width 0.1s linear;
   display: flex;
