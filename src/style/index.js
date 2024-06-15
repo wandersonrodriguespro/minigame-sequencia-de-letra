@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import backgroundImage from "../assets/img/cidade-alta.webp";
+import backgroundImage from "../assets/img/cidade-alta.png";
 
 export const GlobalStyle = createGlobalStyle`
 *{
