@@ -69,16 +69,19 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 
 ### Deploy do Projeto
 
-Teste sua Habilidade com o Mini-Game=> [Testar Habilidade](https://mini-game-cda.netlify.app/)
+Teste sua Habilidade com o Mini-Game=> <a href="https://mini-game-cda.netlify.app/" target="_blank">Testar Habilidade</a>
 
 
 ### Demonstração
 
 Aqui está uma breve demonstração visual do Mini-Game em ação:
-
+#### Tela de Start
 ![Inicio do Jogo](src/assets/img/start-minigame.png)
+#### Tela de Sequência Gerada
 ![Sequencia Gerada](src/assets/img/sequencia-minigame.png)
+#### Tela de Sequência Correta
 ![Sequencia Correta](src/assets/img/acerto-minigame.png)
+#### Tela de Sequência Incorreta
 ![Falha na Sequencia](src/assets/img/falha-minigame.png)
 
 ---
