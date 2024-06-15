@@ -1,6 +1,6 @@
 ### Mini-Game Sequencia de Letras 
 
-<img src="https://github.com/wandersonrodriguespro/minigame-sequencia-de-letra/blob/25521a7f71bef88724fd116816c16bf438cda225/src/assets/img/acerto-minigame.png" alt="imagem de acerto de sequencia do mini game" width="100%" alighn="right">
+<img src="https://github.com/wandersonrodriguespro/minigame-sequencia-de-letra/blob/25521a7f71bef88724fd116816c16bf438cda225/src/assets/img/acerto-minigame.png" alt="imagem de acerto de sequencia do mini game" width="100%">
 
 Este projeto é um mini-jogo de digitação desenvolvido com React e styled-components. O objetivo do jogo é testar a velocidade e precisão do jogador na digitação de sequências de letras aleatórias em um tempo limitado. O jogo proporciona feedback visual e auditivo ao jogador para indicar acertos e erros.
 
@@ -62,4 +62,4 @@ Aqui está uma breve demonstração visual do Mini-Game:
 #### Tela de Sequência Incorreta
 ![Falha na Sequencia](src/assets/img/falha-minigame.png)
 
----
+##
